@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Practice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Trainer 🚗</h1>
+        <div id="raceTrack" class="race-track">
+            <div id="playerCar" class="car" style="right: 0%;">🚗</div> <!-- Player's Car -->
+            <div id="computerCar" class="car computer" style="right: 0%;">🚗</div> <!-- Computer's Car -->
+        </div>
+        
+        <div id="displayText" class="display-text"></div>
+        <input type="text" id="inputText" placeholder="Start typing here..." autofocus>
+        <div id="stats">
+            <p>Speed: <span id="speed">0</span> WPM</p>
+            <p>Accuracy: <span id="accuracy">100</span>%</p>
+        </div>
+        <button onclick="restart()">Restart</button>
+        <button onclick="manualCompletion()">Done</button>
+        <div id="summaryBox" class="summary-box hidden">
+            <h2>Session Summary</h2>
+            <p>Final Speed: <span id="finalSpeed">0</span> WPM</p>
+            <p>Final Accuracy: <span id="finalAccuracy">100</span>%</p>
+            <p id="feedback"></p>
+        </div>
+    </div>    
+    <script src="script.js"></script>
+</body>
+</html>

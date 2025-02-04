@@ -1,0 +1,5 @@
+* **Description of the Feature**: The intended feature was to transform the keyboard trainer into a racetrack theme, where typing each correct word moves a car forward on the track. Incorrectly spelled words cause the car to move backwards, making the training interactive and engaging.  
+* **Reason for Inclusion**: This feature is considered reasonable for a frontend project because it enhances user engagement by gamifying the learning experience, making the practice of typing more enjoyable and visually appealing.  
+* **Functionality Explanation**: The feature was designed to work by advancing the car forward on the track for every word typed correctly. Conversely, any misspelling would result in the car moving backward, visually representing progress and challenges in real-time as the user types.  
+* **Implementation Challenges with ChatGPT**: ChatGPT struggled to successfully implement this feature. The details of these challenges are essential for understanding the limitations faced during 
+
